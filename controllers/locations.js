@@ -1,7 +1,6 @@
 const Locations = require('./../models/locations');
 const express = require('express');
 const config = require('./../config/const');
-const rp = require('request-promise');
 
 module.exports.findLocation = (req, res) => {
     let location = req.params.address;
